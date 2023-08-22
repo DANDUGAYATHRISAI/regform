@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="regform1.css">
+</head>
+<body>
+    <form>
+    <h2>Registration Form</h2>
+    <div class="container">
+        <label for="name">Name</label>
+        <input type="text" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" required>
+        <label for="number">Phone number</label>
+        <input type="tel" name="number" required><br>
+        <p>Gender</p>
+        <select id="gender">
+            <option value="male" name="male">Male</option>
+            <option value="female" name="female">Female</option>
+        </select> 
+        <label for="Zipcode">Zipcode</label>
+        <input type="text" name="Zipcode" required>
+        <label for="About">About</label>
+        <input type="text area" name="text area" required><br><br>
+        <div class="button">
+            <input type="submit" value="Register">
+        </div>
+    </div>
+    </form>
+</body>
+</html>
