@@ -1,0 +1,28 @@
+label{
+    display: block;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+body{
+    text-align: center;
+    background-color: darkcyan;
+    
+}
+
+form{
+    background-color: darkseagreen;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 10%;
+}
+button{
+    padding: 10px;
+}
+input[type=submit]{
+    background-color: chocolate;
+}
+input[type=submit]:hover{
+    background-color: rosybrown;
+    cursor: pointer;
+}
