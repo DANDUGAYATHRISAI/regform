@@ -20,7 +20,7 @@ button{
     padding: 10px;
 }
 input[type=submit]{
-    background-color: chocolate;
+    background-color: blueviolet;
 }
 input[type=submit]:hover{
     background-color: rosybrown;
